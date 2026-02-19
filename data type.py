@@ -1,0 +1,6 @@
+user_input=input("enter something:")
+print("you entered:",user_input)
+print("data type before conversion:",type(user_input))
+converted_value= int(user_input)
+print("after conversion:",converted_value)
+print("data type after conversion:",type(converted_value))
